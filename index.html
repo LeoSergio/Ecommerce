@@ -4,11 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce de livros</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <div class="menu-header">
+            <span id="logo">
+                <ion-icon name="book"></ion-icon>
+            </span>
+           
+            <div class="nav-menu">
+                <nav>
+                    <li>Loja</li>
+                    <li>Mac</li>
+                    <li>Pad</li>
+                    <li>Iphone</li>
+                    <li>AirPods</li>
+                </nav>
+            </div>
+
+            <div class="icon-right">
+                <span>
+                    <ion-icon name="search"></ion-icon>
+                </span>
+                <span>
+                    <ion-icon name="cart"></ion-icon>
+                </span>
+                <span><ion-icon name="menu" onclick="Click()"></ion-icon></span>
+            </div>
         
+        <div class="acessorios">
+            <h2>Acessórios</h2>
+            <span>
+                <ion-icon name="arrow-dropdown" onclick="clickMenu()"></ion-icon>
+            </span>
+        </div>
+      </div>  
     </header>
+
+    <div class="product">
+        <!--As informações vai mudar de acordo com o produto selecionado.
+            nome do produto.
+            parcelas
+            preço
+        
+        -->
+            <section id="nome-produto">
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+            </section>
+
+        <section id="price">
+            <p>R$ 000,00</p>
+            <p>Parcelas de Pagamento</p> <!--Quando clicar na forma de pagamento abrir as opções-->
+            <p>R$ 000,00 à vista (10% de desconto)</p>
+        </section>
+
+        <img src="imagens/Livro4-Bible.jpg" alt="" width="200px">
+    </div>
+
+
+
+
+
+   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
 </body>
 </html>

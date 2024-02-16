@@ -1,1 +1,56 @@
 @charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+:root{
+    --background: black;
+}
+body{
+    width:100%;
+}
+.menu-header{
+    border-bottom:1px solid rgb(115, 115, 115);
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#logo{
+    font-size: 2.0em;
+}
+.nav-menu{
+    display:none; 
+    /*Quando apertar no botão menu ou no botao do lado do acessorios, aparecer as opções*/
+}
+.icon-right{
+    display: flex;
+    gap:1.4rem;
+    font-size: 1.5em;
+    cursor:pointer;
+}
+.acessorios{
+    display:flex;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+}
+.acessorios span{
+    font-size: 2.0em;
+    cursor:pointer;
+}
+.product{
+    display:flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding:1rem;
+}
+#nome-produto{
+    margin-bottom:1rem;
+}
