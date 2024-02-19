@@ -20,8 +20,10 @@ body{
     padding: 0.5rem 1rem;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 #logo{
+    display: flex;
     font-size: 2.0em;
 }
 .nav-menu{
@@ -33,6 +35,8 @@ body{
     gap:1.4rem;
     font-size: 1.5em;
     cursor:pointer;
+    justify-content: end;
+    
 }
 .acessorios{
     display:flex;
@@ -40,6 +44,7 @@ body{
     justify-content: center;
     align-items: center;
     gap:4rem;
+    margin-top:1rem;
 }
 .acessorios span{
     font-size: 2.0em;
@@ -48,9 +53,26 @@ body{
 .product{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 1rem 0;
     padding:1rem;
 }
 #nome-produto{
     margin-bottom:1rem;
+}
+#price span p{
+    font-size: 0.9em;
+    color:rgb(54, 54, 232);
+    cursor:pointer;
+}
+#price p{
+    padding:0.3rem 0;
+}
+
+
+.rodape{
+    border:1px solid;
+    background: gray;
+    padding:1rem;
 }

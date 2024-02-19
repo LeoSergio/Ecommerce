@@ -52,21 +52,71 @@
         -->
             <section id="nome-produto">
                 <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h3>
+                <p>&#9733 &#9733 &#9733 &#9733 &#9734</p>
             </section>
 
         <section id="price">
             <p>R$ 000,00</p>
-            <p>Parcelas de Pagamento</p> <!--Quando clicar na forma de pagamento abrir as opções-->
+            <span>
+                <p><ion-icon name="alert"></ion-icon>Em até 12x sem Juros de R$00,00</p>
+            </span> <!--Quando clicar na forma de pagamento abrir as opções e fazer o calculo das parcela de acordo com o produto-->
             <p>R$ 000,00 à vista (10% de desconto)</p>
+            <p><label for="cont">Quant.</label>
+                <input type="number" name="cont" id="cont" maxlength="7">
+            </p>
         </section>
 
         <img src="imagens/Livro4-Bible-r.png" alt="" width="200px">
+        <!--Carrosel de imagens com bolinhas-->
+
+       
+    </div>
+
+    <div class="desc">
+        <section>
+            <h2>Descrição:</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus recusandae aspernatur obcaecati sunt quae perspiciatis suscipit! Nobis eveniet vero placeat, inventore nulla consequatur incidunt ratione ad ab dicta, ullam non.</p>
+        </section>
+
+        <section>
+            <h2>Ficha Tecnica:</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos animi vero ea debitis, tenetur at nisi accusantium quaerat itaque placeat maxime, libero iste quibusdam sunt officia expedita numquam. Vel, fugit.
+            </p>
+        </section>
+
     </div>
 
 
+    <div class="pedido">
+        <ion-icon name="bus"></ion-icon>
+        <label for="frete">Frete</label>
+        <input type="number" name="#" id="frete" placeholder="00000-000">
+        <button>Calcular</button>
+
+        <div class="buy">
+            <button>Adicionar ao Carrinho</button>
+
+            <button> Fazer Pedido</button>
+        </div>
+    </div>
+
+    <div class="more">
+        <h2 align="center">Outras Recomendações</h2>
+        <img src="imagens/Livro2-Heroes.jpg" alt="" width="200px">
+    </div>
+
+    <div class="rodape">
+        <footer>
+            <h2>Baixe nosso App:</h2>
+        </footer>
+    </div>
+
+    
 
 
 
+<!--TODAS AS INFORMAÇÕES DEVEM MUDAR COM O PRODUTO SELECIONADO-->
    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
 </body>
