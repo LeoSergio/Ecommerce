@@ -32,8 +32,10 @@ body{
     font-weight: bold;
     
 }
-.nav-menu{
-    display:none; 
+.nav-menu nav{
+    display:none;
+    gap:1rem; 
+    flex-direction: row;
     /*Quando apertar no botão menu ou no botao do lado do acessorios, aparecer as opções*/
 }
 .icon-right{
