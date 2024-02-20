@@ -19,6 +19,7 @@ body{
     display: flex;
     padding: 0.5rem 1rem;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -26,14 +27,19 @@ body{
     display: flex;
     font-size: 2.0em;
 }
+.menu-header h3 span{
+    color:blue;
+    font-weight: bold;
+    
+}
 .nav-menu{
     display:none; 
     /*Quando apertar no botão menu ou no botao do lado do acessorios, aparecer as opções*/
 }
 .icon-right{
     display: flex;
-    gap:1.4rem;
-    font-size: 1.5em;
+    gap:1.3rem;
+    font-size: 1.7em;
     cursor:pointer;
     justify-content: end;
     
@@ -42,13 +48,26 @@ body{
     display:flex;
     margin:auto;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
-    gap:4rem;
     margin-top:1rem;
+    gap:3rem;
 }
 .acessorios span{
     font-size: 2.0em;
     cursor:pointer;
+}
+
+.option nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+   
+}
+.option nav li{
+    display:flex;
+    
 }
 .product{
     display:flex;
