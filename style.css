@@ -110,6 +110,48 @@ body{
     text-indent: 1rem;
     text-align: left;
 }
+
+.pedido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.frete{
+    padding: 1rem 0;
+    display:flex;
+}
+.frete button{
+    border:1px solid gray;
+    padding:0 0.4rem;
+    font-weight: bolder;
+    background-color: rgb(239, 228, 228);
+    cursor:pointer;
+}
+.material-symbols-outlined{
+    padding:1rem;
+    border:1px solid gray;
+}
+.buy{
+    
+    padding:1rem;
+    display:flex;
+    gap:1rem;
+    margin:auto;
+}
+.buy button{
+    display:flex;
+    padding:1rem;
+    justify-content: space-between;
+    align-items: center;
+    cursor:pointer;
+    font-weight: bolder;
+    background-color: rgb(166, 216, 216);
+    border:1px solid;
+    border-radius: 10px;
+}
 .rodape{
     border:1px solid;
     background: gray;
