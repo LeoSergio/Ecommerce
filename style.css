@@ -159,8 +159,41 @@ body{
     border-radius: 10px;
 }
 .rodape{
-    color:#fff;
-    border:1px solid;
-    background: gray;
+    background: rgb(53, 52, 52);
     padding:1rem;
+}
+.rodape p{
+    padding:0.5rem;
+    color:#fff;
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.rodape p span{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(123, 119, 119);
+    font-size: 0.9em;
+    padding:1rem 0;
+}
+.link-app{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    padding:1rem 0;
+}
+.logo{
+    padding:1rem;
+    margin:auto;
+    text-align: center;
+
+}
+.logo h2{
+    color:#fff;
+}
+.logo h2 span{
+    color:blue;
+}
+.logo p{
+    color:gray;
+    font-size: 0.8em;
 }
