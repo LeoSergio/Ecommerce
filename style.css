@@ -175,6 +175,9 @@ body{
     font-size: 0.9em;
     padding:1rem 0;
 }
+.rodape a{
+    color:black;
+}
 .link-app{
     display: flex;
     gap:1rem;
