@@ -200,3 +200,21 @@ body{
     color:gray;
     font-size: 0.8em;
 }
+.links-uteis {
+    border:1px solid red;
+    display:flex;
+    justify-content: start;
+    flex-direction:column;
+    padding:1rem;
+
+}
+.links-uteis h3{
+    color:#fff;
+    font-weight: bolder;
+}
+.links-uteis li{
+    padding:0.3rem 0;
+    
+
+}
+
