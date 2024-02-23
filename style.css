@@ -154,7 +154,6 @@ body{
     background-color: rgb(166, 216, 216);
     border:1px solid;
     border-radius: 10px;
-    
 }
 .more{
     display:flex;
@@ -166,13 +165,12 @@ body{
     padding:1rem;
 }
 .more ul{
-    
     display: flex;
     padding:1rem;
     
 }
 .more li{
-    border:1px solid red;
+    border:1px solid gray;
     display:flex;
     margin:auto;
     text-align: center;
@@ -180,9 +178,7 @@ body{
     flex-direction: column;
     padding:0.8rem;
 }
-.more p{
-    
-}
+
 .rodape{
     background: rgb(53, 52, 52);
     padding:1rem;
