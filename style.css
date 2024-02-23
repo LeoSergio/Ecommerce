@@ -139,7 +139,6 @@ body{
     border:1px solid gray;
 }
 .buy{
-    
     padding:1rem;
     display:flex;
     gap:1rem;
@@ -155,19 +154,33 @@ body{
     background-color: rgb(166, 216, 216);
     border:1px solid;
     border-radius: 10px;
+    
 }
 .more{
     display:flex;
     flex-direction:row;
+    margin-right:auto;
     overflow-y: auto;
     flex-wrap: wrap;
-    
     align-items: center;
     padding:1rem;
 }
 .more ul{
-    border:1px solid red;
+    
     display: flex;
+    padding:1rem;
+    
+}
+.more li{
+    border:1px solid red;
+    display:flex;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0.8rem;
+}
+.more p{
     
 }
 .rodape{
