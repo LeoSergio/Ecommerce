@@ -94,11 +94,9 @@ body{
 .desc{
     display:flex;
     flex-wrap: wrap;
-
     flex-direction: column;
-    width:340px;
+    width:325px;
     margin:0.3rem;
-
 }
 .desc h2{
     padding:1rem;
@@ -167,13 +165,14 @@ body{
     color:#fff;
     font-size: 0.9em;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+
 }
 .rodape p span{
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(123, 119, 119);
     font-size: 0.9em;
     padding:1rem 0;
+    font-weight: bolder;
 }
 .rodape a{
     color:black;
@@ -201,20 +200,28 @@ body{
     font-size: 0.8em;
 }
 .links-uteis {
-    border:1px solid red;
     display:flex;
     justify-content: start;
     flex-direction:column;
-    padding:1rem;
-
+    padding:1rem 0;
+    border-bottom: 2px solid gray;
+    font-size:0.8em;
 }
 .links-uteis h3{
     color:#fff;
-    font-weight: bolder;
 }
 .links-uteis li{
     padding:0.3rem 0;
     
-
 }
+.copyright{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    margin-top:1rem;
+   
+}
+
 
