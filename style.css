@@ -157,13 +157,18 @@ body{
     border-radius: 10px;
 }
 .more{
-    border:1px solid red;
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
+    overflow-y: auto;
     flex-wrap: wrap;
-    justify-content: space-around;
+    
     align-items: center;
     padding:1rem;
+}
+.more ul{
+    border:1px solid red;
+    display: flex;
+    
 }
 .rodape{
     background: rgb(53, 52, 52);
@@ -232,5 +237,8 @@ body{
     margin-top:1rem;
    
 }
+::-moz-scrollbar {
+    width: 40px;
+  }
 
 
