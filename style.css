@@ -90,7 +90,25 @@ body{
 #price p{
     padding:0.3rem 0;
 }
-
+.carrossel{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.carrossel button{
+    border:1px solid ;
+    border-radius:50%;
+    width:0.6rem;
+    height:0.6rem;
+}
+.botoes{
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    cursor:pointer;
+}
 .desc{
     display:flex;
     flex-wrap: wrap;
@@ -156,6 +174,7 @@ body{
     border-radius: 10px;
 }
 .more{
+    border:1px solid red;
     display:flex;
     flex-direction:row;
     margin-right:auto;
