@@ -174,19 +174,23 @@ body{
     border-radius: 10px;
 }
 .more{
-    border:1px solid red;
     display:flex;
     flex-direction:row;
     margin-right:auto;
-    overflow-y: auto;
     flex-wrap: wrap;
     align-items: center;
-    padding:1rem;
+    padding: 0 1rem ;
+}
+.more .more-img{
+    display:flex;
+    overflow-y: auto;
+}
+::-webkit-scrollbar-thumb{ /*Personalizar barra de rolagem*/
+   height:5px;
 }
 .more ul{
     display: flex;
-    padding:1rem;
-    
+    padding-bottom:1rem;  
 }
 .more li{
     border:1px solid gray;
@@ -197,7 +201,6 @@ body{
     flex-direction: column;
     padding:0.8rem;
 }
-
 .rodape{
     background: rgb(53, 52, 52);
     padding:1rem;
